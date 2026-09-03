@@ -1,0 +1,28 @@
+$prefix: 'React-';
+
+$dark:#b1b5b2;
+$white: #FFFFFF;
+$black: #131616;
+
+// Text-Color
+$warning:#c27120;
+$success:#68116d;
+$info:#065a6b;
+$light:#6610f2;
+
+// Bg-Color
+$purple-100:#eddaee;
+$cyan-100:#e1f4f8;
+$indigo-100:#e3d4fa;
+
+#root {
+  margin: auto;
+  padding: 2rem;
+}
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1440px,
+);

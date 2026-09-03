@@ -1,0 +1,14 @@
+.bullet {
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.active-bullet {
+  background-color: #1877F2;
+  transform: scale(1.3);
+}

@@ -1,0 +1,23 @@
+.us-tabs{
+    border-bottom:1px solid   #dcdcdc;
+}
+/* All tabs normal */
+.us-tabs .nav-link {
+  color: #000;
+//   opacity: 0.8;
+  padding-bottom: 8px;
+  font-weight: 500;
+}
+
+/* On hover */
+.us-tabs .nav-link:hover {
+  opacity: 1;
+  color: #1877F2;
+}
+
+/* Active tab styling */
+.us-tabs .nav-link.active {
+  color: #1877F2 !important;
+  border-bottom: 2px solid #1877F2 !important;
+  opacity: 1;
+}

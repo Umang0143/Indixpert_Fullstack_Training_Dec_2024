@@ -1,0 +1,19 @@
+.bg-pending {
+  background-color: $blue-100 !important;
+}
+
+.bg-negotiating {
+  background-color: $orange-100 !important;
+}
+
+.bg-failed{
+  background-color: $purple-100;
+}
+
+.bg-paid{
+  background-color: $cyan-100;
+}
+
+.bg-overdue{
+  background-color: $indigo-100;
+}

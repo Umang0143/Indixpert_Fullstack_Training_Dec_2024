@@ -1,0 +1,18 @@
+.navbar {
+    background: #49BBBD;
+    
+    li {
+
+        .nav-link {
+            color: #FFFFFF;
+
+            &:hover {
+                color: black;
+            }
+        }
+
+        .sign {
+            background: $info-bg;
+        }
+    }
+}

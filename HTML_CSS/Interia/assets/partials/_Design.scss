@@ -1,0 +1,13 @@
+.my-img {
+    border-radius: 0 50% 50% 0;
+    width: 27rem;
+    height: 19.87rem;
+    object-fit: cover;
+}
+
+@media (max-width: 992px) {
+    .my-img {
+        border-radius: 0;
+        width: 100%;
+    }
+}

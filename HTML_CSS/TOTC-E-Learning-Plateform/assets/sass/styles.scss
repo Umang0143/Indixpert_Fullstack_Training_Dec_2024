@@ -1,0 +1,18 @@
+@import "./../partials/variables";
+
+
+
+@import './../../node_modules/bootstrap/scss/functions';
+@import './../../node_modules/bootstrap/scss/variables';
+
+$font-sizes: map-merge($map1: $custom_font-sizes , $map2: $font-sizes );
+$position-values: map-merge($map1: $custom_position-values, $map2: $position-values );
+
+@import "./../partials/header";
+@import "./../partials/hero-banner";
+@import "./../partials/explore_course";
+@import "./../partials/our-success";
+@import "./../partials/testimonial";
+
+@import './../../node_modules/bootstrap/scss/bootstrap.scss';
+

@@ -1,0 +1,19 @@
+.profile-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile-card table{
+  border: 1px solid black;
+  width: 450px;
+}
+
+.profile-card td{
+  border: 1px solid black;
+}
+
+.profile-card img {
+  width: 100px;
+  height: 100px;
+}

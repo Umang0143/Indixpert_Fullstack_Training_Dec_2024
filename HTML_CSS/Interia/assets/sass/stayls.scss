@@ -1,0 +1,24 @@
+@import "./../partials/variables";
+
+@import "./../../node_modules/bootstrap/scss/functions";
+@import "./../../node_modules/bootstrap/scss/variables";
+
+.Nunito{
+    font-family: 'Nunito', sans-serif;
+}
+.Kanit{
+    font-family: 'Kanit', sans-serif;
+}
+.letter-spacing{
+    letter-spacing: 0.43em;
+}
+
+@import "./../partials/header";
+@import "./../partials/hero-section";
+@import "./../partials/learn-about";
+@import "./../partials/Design";
+@import "./../partials/teams";
+
+
+
+@import "./../../node_modules/bootstrap/scss/bootstrap.scss";

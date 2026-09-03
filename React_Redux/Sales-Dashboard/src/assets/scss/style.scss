@@ -1,0 +1,12 @@
+@import "./../partials/variables";
+@import "./../partials/underline";
+@import "./../partials/accordian";
+@import "./../partials/dashboard";
+@import "./../../../node_modules/bootstrap/scss/functions";
+@import "./../../../node_modules/bootstrap/scss/variables";
+
+
+$font-sizes: map-merge($map1: $custom_font-sizes , $map2: $font-sizes );
+$display-font-sizes: map-merge($map1: $custom_display-font-sizes, $map2: $display-font-sizes );
+
+@import "./../../../node_modules/bootstrap/scss/bootstrap.scss";

@@ -1,0 +1,47 @@
+$prefix: "Sales-Dashboard-";
+
+$font-family-base: "Poppins", sans-serif;
+
+$primary:       #A584F3;
+// $secondary:     $gray-600 !default;
+// $success:       $green !default;
+$info:          #809FB8;
+$light:         #CECECE;
+$dark:          #17181A;
+
+$h1-font-size:1.62rem;      //26px
+$h2-font-size:1.12rem;      //18px
+$h3-font-size:1rem;         //16px
+$h4-font-size:0.93rem;      //15px
+$h5-font-size:0.87rem;      //14px
+$h6-font-size: 0.81rem;     //13px
+
+$custom_font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size
+);
+
+$custom_display-font-sizes: (
+  5: 3rem,
+  6: 2.25rem
+);
+
+$sm: 540px;
+$md: 720px;
+$lg: 960px;
+$xl: 1240px;
+$xxl: 1440px;
+$xxxl:1665px;
+
+$container-max-widths: (
+  sm: $sm,
+  md: $md,
+  lg: $lg,
+  xl: $xl,
+  xxl: $xxl,
+  xxxl: $xxxl,
+);

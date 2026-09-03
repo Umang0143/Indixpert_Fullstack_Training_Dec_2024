@@ -1,0 +1,84 @@
+$prefix: 'E-Learning-';
+
+//  Color Variables 
+$white: #FFFFFF;
+$black: #010514;
+$accent: #49BBBD;
+$primary:  #2F327D;
+$secondary: #5F5F7E;
+$success: #525596;
+$warning: #F48C06;
+$info: #00CBB8;
+$danger: #252641;
+$light: #696984;
+$dark: #00BCD4;
+$gray-700: #B2B3CF;
+
+// Typography
+$font-family-base: 'Poppins', sans-serif;
+$info-bg: rgba(255, 255, 255, 0.3);
+
+$font-size-base: 1.375rem;
+$font-size-lg: 6rem;
+$line-height-lg:1.8;
+
+$h1-font-size:1.875rem;  //30px
+$h2-font-size:1.75rem;   //28px
+$h3-font-size:1.625rem;  //26px
+$h4-font-size:1.5rem;    //24px
+$h5-font-size:1.25rem;   //20px
+$h6-font-size: 1.125rem; //18px
+
+$custom_font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size
+);
+
+$display-font-sizes: (
+  1: 3.75rem,  //60px
+  2: 3.37rem,  //54px
+  3: 2.75rem,  //44px
+  4: 2.5rem,  //40px
+  5: 2.25rem,  //36px
+  6: 2rem  //32px
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+  xxxl:1930px
+);
+
+$sm: 540px;
+$md: 720px;
+$lg: 960px;
+$xl: 1140px;
+$xxl: 1320px;
+$xxxl:1665px;
+
+$container-max-widths: (
+  sm: $sm,
+  md: $md,
+  lg: $lg,
+  xl: $xl,
+  xxl: $xxl,
+  xxxl: $xxxl,
+);
+
+$custom_position-values: (
+  0: 0,
+  10:10%,
+  25:25%,
+  50: 50%,
+  65:65%,
+  75:75%,
+  100: 100%
+)
